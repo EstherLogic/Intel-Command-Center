@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGINT OPS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="app">
+
+        <header class="header">
+            <div class="shield">⬟</div>
+            <h1>SIGINT OPS</h1>
+            <div class="secure">
+                <span class="online-dot"></span>
+                SECURE · ONLINE
+            </div>
+        </header>
+
+        <main>
+
+            <section class="overview">
+
+                <div class="radar">
+                    <div class="radar-sweep"></div>
+                    <span class="signal signal-one"></span>
+                    <span class="signal signal-two"></span>
+                    <span class="signal signal-three"></span>
+                </div>
+
+                <div class="stats">
+                    <div class="stat">
+                        <strong>24</strong>
+                        <span>ACTIVE SIGNALS</span>
+                    </div>
+
+                    <div class="stat">
+                        <strong>07</strong>
+                        <span>PRIORITY ALERTS</span>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="actions">
+                <a href="#brief" class="action">
+                    <span>ϟ</span> New Brief
+                </a>
+
+                <a href="#decode" class="action">
+                    <span>‹›</span> Decode
+                </a>
+
+                <a href="#drone" class="action">
+                    <span>✥</span> Request Drone
+                </a>
+            </section>
+
+            <section class="operations">
+
+                <article class="operation critical">
+                    <div class="operation-top">
+                        <span class="tag red">CRITICAL</span>
+                        <span class="status">In Progress</span>
+                    </div>
+                    <h2>Operation Nightfall</h2>
+                    <div class="progress">
+                        <span style="width: 55%"></span>
+                    </div>
+                    <span class="percent">55%</span>
+                </article>
+
+                <article class="operation high">
+                    <div class="operation-top">
+                        <span class="tag yellow">HIGH</span>
+                        <span class="status">Analyzing</span>
+                    </div>
+                    <h2>Signal Intercept Alpha</h2>
+                    <div class="progress">
+                        <span style="width: 40%"></span>
+                    </div>
+                    <span class="percent">40%</span>
+                </article>
+
+                <article class="operation medium">
+                    <div class="operation-top">
+                        <span class="tag green">MEDIUM</span>
+                        <span class="status">Pending</span>
+                    </div>
+                    <h2>Asset Recovery</h2>
+                    <div class="progress">
+                        <span style="width: 15%"></span>
+                    </div>
+                    <span class="percent">15%</span>
+                </article>
+
+                <article class="operation high">
+                    <div class="operation-top">
+                        <span class="tag yellow">HIGH</span>
+                        <span class="status">Active</span>
+                    </div>
+                    <h2>Cyber Defense Grid</h2>
+                    <div class="progress">
+                        <span style="width: 80%"></span>
+                    </div>
+                    <span class="percent">80%</span>
+                </article>
+
+            </section>
+
+            <section class="threat">
+                <span class="threat-dot"></span>
+                THREAT DETECTED
+            </section>
+
+            <section class="hidden-sections">
+                <div id="brief">NEW BRIEF</div>
+                <div id="decode">DECODE</div>
+                <div id="drone">REQUEST DRONE</div>
+            </section>
+
+        </main>
+
+        <nav class="bottom-nav">
+    <a href="#" class="nav-item active">
+        <img src="./icones\activity.svg" alt="">
+        <span>Dashboard</span>
+    </a>
+
+    <a href="#" class="nav-item">
+        <img src="./icones/radio.svg" alt="">
+        <span>Feed</span>
+    </a>
+
+    <a href="#" class="nav-item">
+        <img src="./icones/file-text.svg" alt="">
+        <span>Brief</span>
+    </a>
+
+    <button class="help-btn" type="button">?</button>
+</nav>
+
+        <div id="dashboard"></div>
+        <div id="feed"></div>
+        <div id="help"></div>
+
+    </div>
+
+</body>
+</html>
